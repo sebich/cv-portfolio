@@ -1,7 +1,12 @@
 import React from 'react';
+import Navigation from '../components/Navigation';
 
 const home = () => {
-  return <div>Home c'est ici !</div>;
+  return (
+    <div>
+      <Navigation />
+    </div>
+  );
 };
 
 export default home;
