@@ -14,7 +14,7 @@ $black: #333;
 
 $borderRaduis: 25px;
 $shadow: 0 1px 3px #333;
-$min-height: 95vh;
+$minHeight: 95vh;
 
 @mixin verticalCenter {
   display: flex;
@@ -46,4 +46,30 @@ a {
   text-decoration: none;
   columns: $black;
   cursor: pointer;
+}
+
+a:visited {
+  color: $black;
+}
+
+.home,
+.knowledges,
+.portfolio,
+.contact {
+  display: flex;
+
+  @media screen and (max-width: 850px) {
+    display: block !important;
+  }
+}
+
+.homeContent,
+.knowledgesContent,
+.portfolioContent,
+.contactContent {
+  margin-left: 0.4rem;
+
+  @media screen and (max-width: 850px) {
+    margin-left: 0 !important;
+  }
 }

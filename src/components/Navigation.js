@@ -5,8 +5,10 @@ const Navigation = () => {
   return (
     <div className="sidebar">
       <div className="id">
-        <img src="./media/sebastien-fernandes.png" alt="profil-pic" />
-        <h3>Sébastien Fernandes</h3>
+        <div className="idContent">
+          <img src="./media/sebastien-fernandes.jpg" alt="profil-pic" />
+          <h3>Sébastien Fernandes</h3>
+        </div>
       </div>
 
       <div className="navigation">
