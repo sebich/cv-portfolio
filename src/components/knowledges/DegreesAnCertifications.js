@@ -6,9 +6,13 @@ const DegreesAnCertifications = () => {
       <h3>Diplômes et Certifications</h3>
       <div className="deg1">
         <h4>
-          <a href="../../media/Certification Opquast.pdf">
-            Certification Opquast
-          </a>
+          <a
+            href="./media/Certification_Opquast.pdf"
+            title="nouvelle fenêtre certification Opquast pdf"
+            target="_blank"
+          >
+            Certification Opquast{' '}
+          </a>{' '}
           - Maîtrise de la qualité web en projet web
         </h4>
         <h5>2021</h5>
@@ -26,8 +30,14 @@ const DegreesAnCertifications = () => {
       </div>
       <div className="deg2">
         <h4>
-          <a href="../../media/Titre professionnel DWWM.jpg">TP Niveau III</a>-
-          Développeur web
+          <a
+            href="./media/Titre_professionnel_DWWM.jpg"
+            title="nouvelle fenêtre titre professionnel DWM pdf"
+            target="_blank"
+          >
+            TP Niveau III{' '}
+          </a>{' '}
+          - Développeur web
         </h4>
         <h5>2019</h5>
         <ul>

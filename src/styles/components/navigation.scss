@@ -1,7 +1,7 @@
 .sidebar {
   background: $color-1;
   font-family: $font-1;
-  height: 100%;
+  height: auto;
   min-height: $minHeight;
   width: 264px;
   border-radius: $borderRadius;
@@ -22,7 +22,7 @@
 
     .idContent {
       position: absolute;
-      bottom: 0;
+      top: 50px;
       left: 50%;
       transform: translateX(-50%);
       width: 100%;
@@ -42,10 +42,12 @@
 
   .navigation {
     grid-area: 2;
+    position: absolute;
+    top: 40px;
     padding: 2rem 1rem;
 
     ul {
-      height: 100%;
+      height: 50%;
       display: grid;
 
       li {

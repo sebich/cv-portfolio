@@ -2,7 +2,7 @@ import React from 'react';
 
 const Formations = () => {
   return (
-    <div className="formation">
+    <div className="formations">
       <h3>Formations</h3>
       <div className="form1">
         <h4>Développeur fullstack Javascript - O'Clock | Téléprésentiel</h4>
