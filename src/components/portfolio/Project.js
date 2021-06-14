@@ -43,10 +43,10 @@ class Project extends Component {
                     href={source}
                     target="_blank"
                     rel="noopener noreferrer"
-                    title="nouvelle fenêtre github code source"
+                    title="nouvelle fenêtre vers l'application"
                     className="button"
                   >
-                    Code source
+                    Voir
                   </a>
                 </div>
               </div>
