@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { CopyToClipboard } from 'react-copy-to-clipboard';
 
 const Navigation = () => {
   return (
@@ -34,8 +35,43 @@ const Navigation = () => {
           <li>
             <NavLink exact to="/contact" activeClassName="navActive">
               <i className="fas fa-address-card"></i>
-              <span>Contact</span>
+              <span>Contactez-moi</span>
             </NavLink>
+          </li>
+        </ul>
+      </div>
+
+      <div className="contact">
+        <ul>
+          <li>
+            <i className="fas fa-map-marked-alt"></i>
+            <span>Champcueil</span>
+          </li>
+          <li>
+            <i className="fas fa-mobile-alt"></i>
+            <CopyToClipboard text="0601959980">
+              <span
+                className="clickInput"
+                onClick={() => {
+                  alert('N° de téléphone copié !');
+                }}
+              >
+                06 01 95 99 80
+              </span>
+            </CopyToClipboard>
+          </li>
+          <li>
+            <i className="far fa-envelope"></i>
+            <CopyToClipboard text="seb082011@gmail.com">
+              <span
+                className="clickInput"
+                onClick={() => {
+                  alert('E-mail copié !');
+                }}
+              >
+                seb082011@gmail.com
+              </span>
+            </CopyToClipboard>
           </li>
         </ul>
       </div>

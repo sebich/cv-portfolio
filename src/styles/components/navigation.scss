@@ -3,16 +3,17 @@
   font-family: $font-1;
   height: auto;
   min-height: $minHeight;
-  width: 264px;
+  width: 270px;
   border-radius: $borderRadius;
   position: relative;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 300px 1fr 108px;
+  grid-template-rows: 300px 1fr 1fr 110px;
   grid-template-areas:
     '1'
     '2'
-    '3';
+    '3'
+    '4';
 
   .id {
     grid-area: 1;
@@ -77,52 +78,84 @@
       }
     }
   }
-}
 
-.socialNetwork {
-  grid-area: 3;
+  .contact {
+    grid-area: 3;
+    padding: 1rem 1rem;
 
-  ul {
-    display: flex;
-    width: 264px;
-    padding: 0 14px;
-    justify-content: space-around;
+    ul {
+      height: 50%;
+      display: grid;
 
-    li {
-      font-size: 1.5rem;
-      background: $color-5;
-      color: $color-1;
-      border-radius: 50%;
-      padding: 0.5rem 0.8rem;
-      transition: 0.3s;
-      cursor: pointer;
+      li {
+        position: relative;
+        padding: 1rem 0 1rem 0.4rem;
+        font-size: 1.3rem;
 
-      a:visited {
+        i {
+          font-size: 1.5rem;
+          position: absolute;
+          color: black;
+        }
+        span {
+          margin-left: 2.5rem;
+          font-size: 1.2rem;
+          color: black;
+          // position: relative;
+          // transform: translateX(54px);
+          // transition: 0.2s ease;
+        }
+        .clickInput:hover {
+          // transform: translateX(56px);
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .socialNetwork {
+    grid-area: 4;
+
+    ul {
+      display: flex;
+      width: 264px;
+      padding: 0 14px;
+      justify-content: space-around;
+
+      li {
+        font-size: 1.5rem;
+        background: $color-5;
         color: $color-1;
-      }
+        border-radius: 50%;
+        padding: 0.5rem 0.8rem;
+        transition: 0.3s;
+        cursor: pointer;
 
-      &:hover {
-        background: $color-4;
+        a:visited {
+          color: $color-1;
+        }
+
+        &:hover {
+          background: $color-4;
+        }
       }
     }
-  }
 
-  .signature {
-    margin-top: 2rem;
-    text-align: center;
-    letter-spacing: 0.1rem;
-    font-size: 0.9rem;
+    .signature {
+      margin-top: 2rem;
+      text-align: center;
+      letter-spacing: 0.1rem;
+      font-size: 0.9rem;
 
-    p {
-      color: $color-5;
+      p {
+        color: $color-5;
 
-      &:hover {
-        color: $color-4;
+        &:hover {
+          color: $color-4;
+        }
       }
     }
   }
 }
-
 @media screen and (max-width: 850px) {
   .sidebar {
     display: flex;
@@ -131,8 +164,9 @@
     width: 100%;
 
     .id,
+    .contact,
     .socialNetwork {
-      display: none;
+      display: none !important;
     }
 
     .navigation {
