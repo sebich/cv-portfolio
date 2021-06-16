@@ -34,7 +34,7 @@
       }
       h2 {
         font-size: 2.5rem;
-        color: $color-3;
+        color: $color-2;
         // text-shadow: 1px 4px 1px $black;
       }
       p {
@@ -47,7 +47,8 @@
         padding: 3rem 0;
         a {
           font-size: 1.5rem;
-          background: $color-3;
+          color: $color-1;
+          background: $color-2;
           padding: 1rem 2rem;
           border-radius: $borderRadius;
           box-shadow: 0 5px 1px rgb(15, 15, 15);

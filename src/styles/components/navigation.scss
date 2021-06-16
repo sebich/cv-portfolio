@@ -59,7 +59,7 @@
         }
 
         a {
-          color: $color-5;
+          color: $black;
         }
 
         .navActive {
@@ -95,12 +95,12 @@
         i {
           font-size: 1.5rem;
           position: absolute;
-          color: black;
+          color: $black;
         }
         span {
           margin-left: 2.5rem;
           font-size: 1.2rem;
-          color: black;
+          color: $black;
           // position: relative;
           // transform: translateX(54px);
           // transition: 0.2s ease;
@@ -130,8 +130,12 @@
         transition: 0.3s;
         cursor: pointer;
 
-        a:visited {
+        a {
           color: $color-1;
+        }
+
+        a:visited {
+          color: $color-3;
         }
 
         &:hover {

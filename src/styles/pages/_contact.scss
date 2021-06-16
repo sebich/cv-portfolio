@@ -5,7 +5,7 @@
 }
 
 .contactContent {
-  background: $color-3;
+  background: $color-2;
   border-radius: $borderRadius;
   width: 100%;
   overflow: hidden;
@@ -70,37 +70,7 @@
       transform: translateX(-50%);
     }
   }
-  // ul {
-  //   height: 72%;
-  //   width: inherit;
-  //   display: grid;
-  //   margin-top: 3.5rem;
 
-  //   li {
-  //     position: relative;
-  //   }
-
-  //   i {
-  //     font-size: 1.4rem;
-  //     position: absolute;
-  //     transform: translateY(2px);
-  //     color: $color-2;
-  //   }
-  //   span {
-  //     font-size: 1.4rem;
-  //     position: absolute;
-  //     transform: translateX(52px);
-  //     background: transparent;
-  //     border: none;
-  //     outline: none;
-  //     width: 350px;
-  //     transition: 0.2s ease;
-  //   }
-  //   .clickInput:hover {
-  //     transform: translateX(56px);
-  //     cursor: pointer;
-  //   }
-  // }
   .form-content {
     display: grid;
     padding-top: 20px;
@@ -112,7 +82,7 @@
     font-family: $font-1;
     font-size: 1.1rem;
     border-bottom: 1px solid#333;
-    color: $color-1;
+    color: $color-3;
   }
   input,
   .email-content,
@@ -180,8 +150,8 @@
     font-size: 1.3rem;
     padding: 1rem 2rem;
     margin-top: 15px;
-    background: rgb(99, 164, 233);
-    color: blue;
+    background: $color-2;
+    color: $color-1;
     border: none;
     border-radius: 25px;
     box-shadow: 0 5px 1px rgb(15, 15, 15);
@@ -192,7 +162,7 @@
   }
   .button:hover {
     letter-spacing: 2px;
-    background: #4fedd2;
+    background: $color-4;
   }
   .error::placeholder {
     color: #ff4d4d;

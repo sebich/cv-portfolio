@@ -49,7 +49,7 @@ const Contact = () => {
     formMess.style.opacity = '1';
 
     document.getElementById('name').classList.remove('error');
-    document.getElementById('prenom').classList.add('error');
+    document.getElementById('prenom').classList.remove('error');
     document.getElementById('email').classList.remove('error');
     document.getElementById('message').classList.remove('error');
 
