@@ -14,7 +14,7 @@ export const portfolioData = [
     languages: ['all', 'css'],
     languagesIcons: ['fab fa-css3-alt'],
     source: 'http://www.voyage.sebfdw.com',
-    info: "Site d'agence de voyage réalisé pendant mon auto-formation chez UDEMY avec HTML et CSS - 2019-2020",
+    info: "Site d'agence de voyage réalisé pendant mon auto-formation chez UDEMY avec HTML et CSS - 2019",
     picture: './media/voyage.png',
   },
   {
@@ -23,7 +23,7 @@ export const portfolioData = [
     languages: ['all', 'javascript', 'css'],
     languagesIcons: ['fab fa-js', 'fab fa-css3-alt'],
     source: 'http://www.actrices.sebfdw.com',
-    info: 'Site réalisé pendant mon auto-formation chez UDEMY avec la librairie Javascript JQuery - 2019-2020',
+    info: 'Site réalisé pendant mon auto-formation chez UDEMY avec la librairie Javascript JQuery - 2019',
     picture: './media/actrices.png',
   },
   {
@@ -32,7 +32,7 @@ export const portfolioData = [
     languages: ['all', 'javascript', 'css'],
     languagesIcons: ['fab fa-js', 'fab fa-css3-alt'],
     source: 'http://www.snakee.sebfdw.com',
-    info: 'Jeu du serpent réalisé pendant mon auto-formation chez UDEMY avec Javascript et le composant canvas du langage de balisage HTML- 2019-2020',
+    info: 'Jeu du serpent réalisé pendant mon auto-formation chez UDEMY avec Javascript et le composant canvas du langage de balisage HTML- 2019',
     picture: './media/serpent.png',
   },
   {
@@ -59,7 +59,7 @@ export const portfolioData = [
     languages: ['all', 'javascript', 'css'],
     languagesIcons: ['fab fa-js', 'fab fa-css3-alt'],
     source: 'http://www.travel-wishes.sebfdw.com',
-    info: 'Site réalisé pendant mon auto-formation chez UDEMY avec Javascript JQuery le framework CSS Bootstrap, webpack- 2019-2020',
+    info: 'Site réalisé pendant mon auto-formation chez UDEMY avec Javascript JQuery le framework CSS Bootstrap, webpack- 2019',
     picture: './media/travel-wishes.png',
   },
 
@@ -69,7 +69,7 @@ export const portfolioData = [
     languages: ['all', 'react', 'css'],
     languagesIcons: ['fab fa-js', 'fab fa-react', 'fab fa-css3-alt'],
     source: 'https://www.sebfdw.com',
-    info: 'CV réalisé avec Javascript et la librairie React - 2021-2022',
-    picture: './media/cv.png',
+    info: 'CV réalisé avec Javascript et la librairie React - 2021',
+    picture: './media/portfolio.png',
   },
 ];

@@ -1,6 +1,6 @@
 .home {
   .homeContent {
-    background: linear-gradient(115deg, $color-1 50%, transparent 100%);
+    background: linear-gradient(115deg, $color-1 50%, transparent 80%);
     min-height: $minHeight;
     width: 100%;
     min-height: 700px;
@@ -15,7 +15,6 @@
       width: inherit;
       background: url('../../media/keyboard.jpg') no-repeat center/cover;
       z-index: -1;
-      filter: brightness(40%);
     }
 
     .content {
