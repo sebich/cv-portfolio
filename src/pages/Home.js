@@ -1,5 +1,6 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
+import TextAnimation from '../components/TextAnimation';
 
 const home = () => {
   return (
@@ -8,7 +9,9 @@ const home = () => {
       <div className="homeContent">
         <div className="content">
           <h1>Développeur web front-end</h1>
-          <h2>Spécialisation React</h2>
+          <h2 className="specialisation">
+            <TextAnimation />
+          </h2>
           <div className="textContent">
             <p>
               Doté d'une grande curiosité pour l'univers du web, je suis
