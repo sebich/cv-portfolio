@@ -46,7 +46,7 @@
         padding: 3rem 0;
         a {
           font-size: 1.5rem;
-          color: $color-1;
+          color: white;
           background: $color-2;
           padding: 1rem 2rem;
           border-radius: $borderRadius;
@@ -54,6 +54,7 @@
           transition: 0.2s ease;
 
           &:hover {
+            color: $color-1;
             background: $color-4;
           }
         }
