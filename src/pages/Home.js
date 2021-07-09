@@ -9,7 +9,6 @@ const home = () => {
       <div className="homeContent">
         <div className="content">
           <h1>
-            {/* Règle SEO : optimisation mot-clé balise strong */}
             <strong>Développeur web front-end</strong>
           </h1>
           <h2 className="specialisation">
